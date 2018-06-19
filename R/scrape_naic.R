@@ -65,6 +65,6 @@ for (table in tables) {
 
   openxlsx::write.xlsx(
     x = table,
-    file = str_c('data/', doc, '.xlsx'))
+    file = str_c('data/raw/', doc, '.xlsx'))
 
 }
